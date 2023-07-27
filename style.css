@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    display: block;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+*{
+    box-sizing: inherit;
+}
+div{
+    display: block;
+}
+
+
+.down-btn{
+    width: 100%;
+    display: none;
+    margin: 0;
+    padding: 8px 0 8px 0;
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+
+ /* ----------- slider ------------ */
+
+.container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+    /* margin-bottom: -8px; */
+}
+.outer-div{
+    position: relative;
+}
+.take-photos{
+    position: absolute;
+    margin-left: 16px;
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-align: center;
+    opacity: 0.6;
+    margin-top: -557px;
+    float: left;
+   
+}
+.take-photos > h1{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+}
+.take-photos > hr{
+    background-color: black;
+    padding: 0;
+}
+.take-photos > button{
+    color: white;
+    background-color: #4CAF50;
+    padding: 8px 130px 8px 130px;
+    border-radius: 3px;
+    margin-top: 2px;
+
+}
+.take-photos > button > i{
+    font-size: inherit;
+    color: white;
+}
+
+.take{
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 0;
+    margin-top: -475px;
+    padding: 8px 16px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.take > a{
+    color: white;
+}
+.take:hover{
+    background-color: white;
+    color: black;
+   
+}
+.take > a:hover{
+    color: black;
+    text-decoration: none;
+}
+.take-photos:hover{
+    background-color: black;
+    opacity: 100;
+}
+/* ------------- take tour ----------------- */
+
+
+.take-tour{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 8px;
+    display: none;
+}
+.take-tour > a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+/* -------- The App ---------- */
+.app{
+    color: black;
+    background-color: white;
+    padding: 56px 0 61px 0;
+    /* margin-top: -8px; */
+}
+.app-row{
+    padding: 0 8px;
+    display: flex;
+}
+.app-heading{
+    font-size: 64px;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    display: block;
+}
+.why-buy{
+    color: #4CAF50;
+    font-size: 48px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+.para1{
+    margin: 16px 0;
+    padding-top: 5px;
+}
+.app-col1, .app-col2{
+    padding: 0 8px;
+    margin-left: auto;
+        margin-right: auto;
+}
+.app-col1{
+    width: 66.77777%;
+}
+.app-col2{
+    width: 33.22222%;
+}
+
+h1{
+    font-weight: 400;
+    /* margin: 25px 0; */
+    display: block;
+    font-family: "Poppins", sans-serif;
+    
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.the-app-img{
+    max-width: 100%;
+    height: auto;
+    float: right;
+    border-style: none;
+   
+}
+.clarity-img{
+    max-width: 100%;
+    height: auto;
+    float: left;
+    border-style: none
+}
+button{
+    color: black;
+    background-color: #f1f1f1;
+    padding: 12px 24px;
+    margin: 16px 0 16px 0;
+    border: none;
+}
+.fa{
+    display: inline-block;
+    font: normal normal normal 16px/1 FontAwesome;
+    font-size: inherit;
+}
+.fa-android{
+    color: #4CAF50;
+    font-size: 24px;
+}
+.fa-apple{
+    color: black;
+    font-size: 24px;
+}
+.fa-windows{
+    color: #2196f3;
+    font-size: 24px;
+}
+
+/* ------ clarity ------ */
+
+.clarity{
+    padding-top: 64px;
+    padding-bottom: 56px;
+    background-color: #f1f1f1;
+}
+.clar-row{
+    display: flex;
+    padding: 0 8px;
+    color: black;
+}
+.clarity-col1{
+    width: 33.22222%;
+}
+.clarity-col2{
+    width: 66.77777%;
+}
+.calrity-row{
+    padding: 0 8px;
+}
+.clarity-col1{
+    padding: 0 6px 0 8px;
+}
+.clarity-col2{
+    padding: 0 8px 0 4px;
+}
+
+
+/* ------ features ------ */
+
+.features{
+    /* margin-top: -8px; */
+    padding: 67px 16px 36px 16px;
+    background-color: #616161;
+}
+.feature-heading{
+    font-size: 64px;
+    text-align: center;
+    color: white;
+}
+.feature-row{
+    display: flex;
+    color: white;
+    padding-top: 36px;
+    padding-bottom: 28px;
+   
+}
+.feature-div{
+    width: 24.99999%;
+    text-align: center;
+}
+.features > p{
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.fa-bolt{
+    color: #ff9800;
+    font-size: 64px;
+}
+.fa-heart{
+    color: #f44336;
+    font-size: 64px;
+}
+.fa-camera{
+    color: #d2be0e;
+    font-size: 64px;
+}
+.fa-battery-full{
+    color: #4CAF50;
+    font-size: 64px;
+}
+.fa-diamond{
+    color: white;
+    font-size: 64px;
+}
+.fa-cloud{
+    color: #2196f3;
+    font-size: 64px;
+}
+.fa-globe{
+    color: #ffc107;
+    font-size: 64px;
+}
+.fa-hdd-o{
+    color: #00bcd4;
+    font-size: 64px;
+}
+.fa-user{
+    color: white;
+    font-size: 64px;
+}
+.fa-shield{
+    color: #ff9800;
+    font-size: 64px;
+}
+.fa-wifi{
+    color: #757575;
+    font-size: 64px;
+}
+.fa-image{
+    color: #e91e63;
+    font-size: 64px;
+}
+
+/* ------ pricing ------ */
+
+.pricing{
+    text-align: center;
+    background-color: white;
+    padding-top: 64px;
+    padding-bottom: 55px;
+   /* margin-top: -20px; */
+}
+.pricing >h1{
+    font-size: 64px;
+    color: black;
+    padding-top: 3px;
+}
+.pricing > p{
+   margin: 18px 0;
+   color: black;
+   font-size: 18px;
+   padding: 13px 0;
+}
+.price-row{
+    display: flex;
+    padding: 49px 8px;
+}
+.price-col{    
+    color: #757575;
+    padding: 0 8px;
+    width: 49.99999%;
+}
+.basic{
+    font-size: 24px;
+    padding: 32px 24px;
+    background-color: #616161;
+    color: white;
+
+}
+.premium{
+    font-size: 24px;
+    padding: 32px 24px;
+    background-color: #f44336;
+    color: white;
+}
+ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: block;   
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+ul li{
+    padding: 16px 16px;
+    border-bottom: 1px solid #ddd; 
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    color: black;
+}
+.download-btn{
+    background-color: black;
+    color: white;
+    margin-top: 8px;
+}
+
+
+ /* -------- footer --------- */
+
+ .footer{
+    
+    color: black;
+   background-color: #f1f1f1;
+    padding-top: 48px;
+    padding-bottom: 32px;
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+.footer i:hover{
+    opacity: 0.50;
+}
+.w3{
+    color: inherit;
+    text-decoration: underline;
+}
+.w3:hover {
+    color: green;
+}
+
+
+.show-btn{
+    display: none;
+    
+}
+.show-btn > button {
+    width: 90%;
+    background-color: white;
+}
+/* ------ media query ------ */
+
+
+@media (max-width: 993px){
+    .app-col1{
+        width: 49.99999%;
+    }
+    .app-col2{
+        width: 49.99999%;
+    }
+    .clarity-col1{
+        width: 49.99999%;
+    }
+    .clarity-col2{
+        width: 49.99999%;
+    }  
+   }
+
+
+
+
+@media(max-width: 600px){
+    .app-col1{
+        width: 98%;
+    }
+    .app-row{
+            flex-direction: column;
+    }
+    .hide-btn{
+        display: none;
+    }
+    .show-btn{
+
+        display: contents;
+       
+    }
+    .down-btn{
+        display: block;
+    }
+ 
+    .take-tour{
+        display: block;
+    }
+    .clar-row{
+        flex-direction: column;
+    }
+    .clarity-col1{
+       display: none;
+    }
+    .clarity-col2{
+        width: 97%;
+    }
+    .price-row{
+        flex-direction: column;
+    }
+    .price-col{
+        width: 97%;
+    }
+    .premium{
+        margin-top: 30px;
+    }
+    .take{
+        display: none;
+    }
+    .take-photos{
+        display: none;
+    }
+   
+}
+
+
