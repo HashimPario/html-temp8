@@ -15,7 +15,7 @@ body{
     margin-right: auto;
 }
 *{
-    box-sizing: inherit;
+    /* box-sizing: inherit; */
 }
 div{
     display: block;
@@ -47,13 +47,14 @@ div{
 }
 .parent-div{
     text-align: center;
-    width: 32.6%;
+    width: 35%;
     padding: 8px 16px;
     position: absolute;
     top: 49.6%;
     left: 0%;
     transform: translate(0%,-49.6%);
     font-family: "Poppins", sans-serif;
+    line-height: 1.5;
 }
 .abs-div:hover{
     background-color: black;
@@ -63,14 +64,20 @@ div{
     opacity: 0.60;
     color: #fff;
     background-color: black;
-    padding: 19px 24px 12px 24px;
+    /* padding: 19px 24px 12px 24px; */
+    padding: 12px 24px 22px 24px;
+    margin: 0;
     border-radius: 8px;
     font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+
 }
 .abs-div > h1{
     font-size: 24px;
     margin: 10px 0 10px 0;
     padding-bottom: 4px;
+    line-height: 1.5;
+
 }
 .abs-div > hr{
     margin: 20px 0;
@@ -80,13 +87,17 @@ div{
     color: white;
     background-color: #4CAF50;
     border-radius: 4px;
-    width: 92%;
+    /* margin: 0; */
+    width: 100%;
+    line-height: 1.5;
     padding: 8px 16px;
     cursor: pointer;
     border-style: none;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     display: block;
+    box-sizing: inherit;
+   
 }
 .abs-div > button > i{
     color: white;
